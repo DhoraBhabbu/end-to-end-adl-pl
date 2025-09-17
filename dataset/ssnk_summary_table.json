@@ -1,0 +1,26 @@
+{
+	"name": "ssnk_summary_table",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_sql_sever_endroendpl",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "FileName",
+				"type": "nvarchar"
+			},
+			{
+				"name": "RecordCount",
+				"type": "nvarchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "ReconSummaryFile"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

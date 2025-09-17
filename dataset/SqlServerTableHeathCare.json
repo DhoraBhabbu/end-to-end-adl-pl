@@ -1,0 +1,13 @@
+{
+	"name": "SqlServerTableHeathCare",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_SqlServer1_onprime",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

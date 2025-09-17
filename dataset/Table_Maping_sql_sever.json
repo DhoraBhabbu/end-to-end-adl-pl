@@ -1,0 +1,26 @@
+{
+	"name": "Table_Maping_sql_sever",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_SqlServer1_onprime",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [
+			{
+				"name": "Container_Name",
+				"type": "varchar"
+			},
+			{
+				"name": "table_Name",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "TableMapping"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
